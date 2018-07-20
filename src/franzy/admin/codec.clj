@@ -10,7 +10,7 @@
            (kafka.common TopicAndPartition ErrorMapping)
            (kafka.consumer ConsumerThreadId)
            (kafka.cluster Broker BrokerEndPoint EndPoint)
-           (org.apache.kafka.common.protocol SecurityProtocol)
+           (org.apache.kafka.common.security.auth SecurityProtocol)
            (kafka.api TopicMetadata PartitionMetadata LeaderAndIsr TopicMetadataResponse)
            (kafka.controller ReassignedPartitionsContext LeaderIsrAndControllerEpoch PartitionAndReplica)
            (kafka.admin ReassignmentStatus)
